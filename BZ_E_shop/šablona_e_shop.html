@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Můj eshop - tvořím</title>
+    <meta name="description" content="Můj eshop" />
+    <meta name="keywords" content="E-shop, BZ Company, Fashion" />
+    <meta name="author" content="Jakub Žitný" />
+    <!--viewport: CSS pixel se nepřevádí - fit cover - reálná šířka displaye-->
+    <meta name="viewport" content="width=device-width, viewport-fit=cover" />
+    <!--Flexbox Grid-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+        type="text/css" />
+    <!--jQuery link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="hamburger_menu.js" defer></script>
+    <link rel="stylesheet" href="šablona_e_shop.css" type="text/css" />
+
+    <!--ikona-->
+    <link rel="shortcut icon" href="" />
+
+</head>
+
+<body>
+    <section id="desktop_lista">
+        <div class="desktop_ikony">
+            <ul>
+                <li><a href="#"><img src="icons/facebook.png"></a></li>
+                <li><a href="#"><img src="icons/twitter.png"></a></li>
+                <li><a href="#"><img src="icons/instagram.png"></a></li>
+                <li><a href="#"><img src="icons/youtube.png"></a></li>
+            </ul>
+        </div>
+        <div class="desktop_text">
+            <a href="#"><img src="icons/phone_black_icon.png"><span id="podtrzeni">+420 999 999 999</span></a>
+            <a href="#"><img src="icons/mail_ black_icon.png"><span id="podtrzeni">info@mojedomena.cz</span></a>
+        </div>
+
+    </section>
+
+
+    <header id="hlavni_navbar">
+        <div id="logo">
+            <img src="pics/logo.svg" alt="logo">
+        </div>
+
+        <nav class="navbar">
+
+            <a href="#" class="toggle-button">
+                <!--hamburger menu-->
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-links">
+
+                <ul>
+                    <li><a href="#" class="animated">Domů</a></li>
+                    <li><a href="#" class="animated">Produkty</a></li>
+                    <li><a href="#" class="animated">Podmínky</a></li>
+                    <li><a href="#" class="animated">O nás</a></li>
+                    <li><a href="#" class="animated">Kontakt</a></li>
+                    <li><a href="#" class="animated">Demo</a></li>
+
+                </ul>
+            </div>
+
+
+            <div class="navbar-pics">
+                <ul>
+                    <li><a href="#"><img src="icons/magnifier_magnifying glass2.svg" alt="najít"></a></li>
+                    <li><a href="#"><img src="icons/basket_cart.svg" alt="košík"></a></li>
+                    <li><a href="#"><img src="icons/person_icon.svg" alt="účet"></a></li>
+                    <li><a></a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="uvodni_cast">
+        <div class="bg_img1"></div>
+
+        <div class="uvodni_cast_text">
+            <h1>THE BEST <span style="color: #b8b8b8">FASHION</span> THEME WP</h1>
+            <a>Lorem ipsum is simply dummy text of the printing and typesetting industry</a>
+            </br>
+            </br>
+            <div id="btn_uvodni_cast"><a href="#">Read more</a></div>
+        </div>
+
+    </section>
+
+    <section id="man_fashion">
+        <article id="clanek_man_fashion">
+            <img src="pics/banner1.jpg" alt="banner1">
+            <div id="nove_pismeno"><a>N</a></div>
+
+
+            <div class="man_fashion_text">
+                <h1>MAN <span style="color: #b8b8b8">FASHION</span></h1>
+                <a>Lorem ipsum is simply text of the printing and typesetting industry</a>
+                </br>
+                </br>
+                <div id="btn_man_fashion"><a href="#">Read more</a></div>
+            </div>
+
+        </article>
+
+        <article id="clanek_best_selling">
+            <img src="pics/banner2.jpg" alt="banner2">
+            <div id="nove_pismeno"><a>N</a></div>
+
+            <h4>BEST SELLING HANDBAGS</h4>
+        </article>
+
+        <article id="clanek_elegant_design">
+            <img src="pics/banner3.jpg" alt="banner3">
+            <h4>ELEGANT DESIGN </br>
+                WITH GRAY TONES</h4>
+        </article>
+
+        <article id="clanek_the_best_fashion">
+            <img src="pics/banner4.jpg" alt="banner4">
+            <div class="man_fashion_text_2">
+                <h3>The best fashion theme wp</h3>
+                <a>Lorem ipsum is simply text of the printing and typesetting industry</a>
+            </div>
+        </article>
+    </section>
+
+    <section id="vitejte">
+        <article id="vitejte_text">
+            <h2>Welcome to name shop</h2>
+            <p><span style="font-weight: 500;">Lorem IpsuLorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500sm is simply
+                    dummy</span></p>
+            </br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        </article>
+
+        <article id="vitejte_pic">
+            <img src="pics/uvodnik.jpg" alt="vítejte obrázek">
+        </article>
+
+    </section>
+
+    <section id="vybrane_produkty">
+        <h1>Vybrané produkty</h1>
+
+        <article id="vp_navbar">
+            <ul>
+                <li><a id="aktivni" href="#">NOVINKY</a></li>
+                <li><a id="vp_btn" href="#">TRENDY</a></li>
+                <li><a id="vp_btn" href="#">JARNÍ</a></li>
+                <li><a id="vp_btn" href="#">DÁMSKÁ</a></li>
+            </ul>
+        </article>
+        <div class="produkty_zarovnani">
+            <article class="vp_produkt">
+                <div class="vp_produkt_pic_prazdny">
+                    <img src="pics/image.svg" alt="Testový produkt obrázek">
+                </div>
+                <div class="vp_produkt_text">
+                    <h4>Testový</h4>
+                    <p><span style="color:#ef4140; font-weight: 900;">0 Kč</span></p>
+                    <p><a href="#"><span class="vp_produkt_btn">Do košíku</span></a></p>
+                </div>
+
+            </article>
+
+            <article class="vp_produkt">
+                <div class="vp_produkt_pic">
+                    <img src="pics/New Project.png" alt="Testový produkt obrázek">
+                </div>
+                <div class="vp_produkt_text">
+                    <h4>Testový 1</h4>
+                    <p><span style="color:#ef4140; font-weight: 900;">676 Kč</span></p>
+
+                    <p><a href="#"><span class="vp_produkt_btn">Do košíku</span></a></p>
+                </div>
+            </article>
+
+            <article class="vp_produkt">
+                <div class="vp_produkt_pic_prazdny">
+                    <img src="pics/image.svg" alt="Testový produkt obrázek">
+                </div>
+                <div class="vp_produkt_text">
+                    <h4>Testový produkt</h4>
+                    <p><span style="color:#ef4140; font-weight: 900;">242 Kč</span></p>
+                    <p><a href="#"><span class="vp_produkt_btn">Do košíku</span></a></p>
+                </div>
+
+            </article>
+
+            <article class="vp_produkt">
+                <div class="vp_produkt_pic">
+                    <img src="pics/1000.webp" alt="Testový produkt obrázek">
+                </div>
+                <div class="vp_produkt_text">
+                    <h4>Pepe Jeans dámské tričko Freja</br>
+                        PL504463 XS růžová</h4>
+                    <p><span style="color:#ef4140; font-weight: 900;">1 088 Kč</span></p>
+
+                    <p><a href="#"><span class="vp_produkt_btn">Do košíku</span></a></p>
+                </div>
+
+            </article>
+        </div>
+
+    </section>
+
+    <section id="clanky_vespod">
+        <div class="clanky_zarovnani">
+            <article id="spodni_clanek">
+                <div class="spodni_clanek_pic">
+                    <img src="pics/clanek2.jpg" alt="Testový produkt obrázek">
+                </div>
+                <div class="spodni_clanek_text">
+                    <h3>The handy tool for remote excursions</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard make a type</p>
+                    <p class="datum"><img src="icons/calendar_icon.svg">14.2.2020</p>
+                    <p><a href="#"><span class="spodni_clanek_btn">Přečíst</span></a></p>
+                </div>
+            </article>
+
+            <article id="spodni_clanek">
+                <div class="spodni_clanek_pic">
+                    <img src="pics/clanek1.jpg" alt="Testový produkt obrázek">
+                </div>
+                <div class="spodni_clanek_text">
+                    <h3>Demand reflects sunlight aqua dry branches</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard make a type</p>
+                    <p class="datum"><img src="icons/calendar_icon.svg">14.2.2020</p>
+                    <p><a href="#"><span class="spodni_clanek_btn">Přečíst</span></a></p>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+    <section id="kontaktni_udaje">
+        <article id="ku_kontakt">
+            <h4>KONTAKT</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua ut enim ad demo minim.</p>
+        </article>
+
+        <article id="ku_info">
+            <h4>INFROMACE</h4>
+            <ul>
+                <li><a href="#">Nová kolekce</a></li>
+                <li><a href="#">Obchodní podmínky</a></li>
+                <li><a href="#">Jak reklamovat</a></li>
+                <li><a href="#">Doprava</a></li>
+            </ul>
+        </article>
+
+        <article id="ku_newsletter">
+            <h4>NEWSLETTER</h4>
+            <p>Suffered alteration in some form by injected.</p>
+            <div class="ku_newsletter_okno"></div>
+        </article>
+
+        <article id="ku_adresa">
+            <h4>ADRESA</h4>
+            <ul>
+                <li><a>79 Orchard St, London, Ny 10002,</br>
+                        United States</a></li>
+                <li><a>info@mojedomena.cz</a></li>
+                <li><a>+420 999 999 999</a></li>
+            </ul>
+
+        </article>
+
+    </section>
+
+    <footer>
+        <div class="footer_lista">
+            <ul>
+                <li><a href="#"><img src="icons/facebook.png"></a></li>
+                <li><a href="#"><img src="icons/twitter.png"></a></li>
+                <li><a href="#"><img src="icons/instagram.png"></a></li>
+                <li><a href="#"><img src="icons/youtube.png"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer_text">
+            <a>2020 &copy;</a><a href="#">BZ Company Internacional s.r.o.</a></br>
+            <a>Všechna práva vyhrazena.</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
